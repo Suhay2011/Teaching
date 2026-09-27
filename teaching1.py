@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-API_KEY = st.secrets["GROQ_API_KEY"
+API_KEY = st.secrets["GROQ_API_KEY"]
 
 client=OpenAI(api_key=API_KEY,base_url="https://api.groq.com/openai/v1")
 
